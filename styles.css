@@ -1,0 +1,155 @@
+/* title section */
+#title{
+    background-color: #00AFC1;
+    color: white;
+}
+.container-fluid{
+    padding: 1% 15%;
+    color: white;
+}
+.brand-img{
+    height:40px;
+    width: 43px;
+    border-radius:100%;
+}
+.title-image{
+    width: 100%;
+    height:100%;
+    border-radius: 2.5%;
+}
+.title-text{
+    margin-top: 5%;
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+.nav-link{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+.catchup{
+    margin-top: 10%;
+    font-size: 1.2rem;
+}
+/* .col-lg-6{
+    text-align: center;
+} */
+.navbar-brand{
+    color: white;
+    font-weight:400;
+    font-size: 2rem;
+    font-family: 'Ubuntu';
+
+}
+.row{
+    margin-top: 5%;
+
+}
+
+/* #advertisment{
+    
+    color: #006778;
+    
+    font-size: 2.5rem;
+    
+} */
+.treats-head{
+    margin-top: 3%;
+    color: #006778;
+    font-size: 2.5rem;
+    font-family: 'Ubuntu';
+    font-weight: 900;
+    text-align: center;
+    
+}
+.treats-img{
+    width: 25%;
+}
+
+#treats{
+  padding: 1% 10%;
+
+}
+.treats-h3{
+    font-family: 'Ubuntu';
+    font-size: 1.6rem;
+    color: #006778;
+    margin: 5% 0;
+    font-weight: bolder;
+}
+.p{
+    font-size: 1rem;
+    color: #0093AB;
+    margin: 5% 0 15%;
+}
+.col-md-4{
+    text-align: center;
+    padding: 5%;
+}
+
+/* testimonials section */
+#testimonials{
+    background-color: #69e0f550;
+    padding: 3% 10%;
+
+}
+.testimonials-head{
+    color: #006778;
+    font-size: 2.5rem;
+    font-family: 'Ubuntu';
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 1%;
+}
+#carouselExampleIndicators{
+    margin-bottom: 1%;
+}
+.carousel-item{
+    
+    text-align: center;
+}
+.img-carousel{
+    border-radius: 2.5%;
+}
+
+/* footer section */
+#footer{
+    background-color: #fff;
+    margin-top: 10%;
+  
+    text-align: center;
+}
+.getin-touch{
+    margin-top: 2%;
+    color: #006778;
+    padding: 0;
+}
+
+
+svg{
+    margin: 2% 2%;
+}
+
+/* at media quiery */
+@media (max-width: 1028px) {
+    .title-text{
+        text-align: center;
+        line-height: 1;
+        margin-top: 1%;
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    .catchup{
+        text-align: center;
+        margin-top: 5%;
+        font-size: 1rem;
+    }
+    .navbar-brand{
+        font-weight:200;
+        font-size: 1.5rem;
+    }
+    .img-carousel{
+        width: 100%;
+    }
+}
